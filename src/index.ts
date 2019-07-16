@@ -53,12 +53,12 @@ export const lightningManager = async (
                 notNull: true,
             },
             {
-                name: 'success',
+                name: 'successLog',
                 type: 'varchar(255)',
                 notNull: true,
             },
             {
-                name: 'error',
+                name: 'errorLog',
                 type: 'varchar(10000)',
             },
         ],
